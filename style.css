@@ -426,6 +426,17 @@ body::-webkit-scrollbar-thumb {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+    .navbar .nav-list-item:hover::before {
+        height: 0;
+    }
+
+
+    .navbar .nav-list-item:hover {
+        color: var(--red);
+        font-weight: bold;
+        transform: translateX(10px);
+    }
 }
 
 @media only screen and (max-width: 400px) {
